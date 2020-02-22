@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+@import "register";
+.bg-light {
+    background-color: white !important;
+}
+nav {
+    background-color: white !important;
+    box-shadow: -1px 4px 7px -7px;
+}
+@font-face{
+    src: url('./fonts/ArianAMU-Bold.woff');
+    font-family: FontBold;
+}
+@font-face{
+    src: url('./fonts/ArianAMU.woff');
+    font-family: FontRegular;
+}
+body {
+    background-color: #f6f8fc !important;
+}
+.nav-link {
+    font-family: FontRegular;
+    &:hover{
+        background: #f0f0f0;
+        border-radius: 6px;
+    }
+}
+footer {
+    padding: 30px;
+    a.footer_logo {
+        font-size: 25px;
+        color:white;
+        &:hover{
+            color:#d6d8db;
+            text-decoration: none;
+        }
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 25px;
+        li {
+            margin: 10px 0;
+            a {
+                color: white;
+                &:hover{
+                    color:#d6d8db;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
